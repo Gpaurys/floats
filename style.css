@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: rgb(82, 82, 82);
+    font-weight: lighter;
+}
+main:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container {
+    margin: 0 auto; 
+    max-width: 800px;
+    padding: 0 1em;
+}
+.header-top {
+    padding: 1em 0 2em 0;
+}
+.header-top:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+header {
+    background-color: rgb(187, 187, 187);
+    margin-bottom: 2em; 
+}
+ a {
+     text-decoration: none;
+     color: rgb(82, 82, 82);
+ }
+.logo {
+    width: calc(100% / 2 - (1em / 2));
+    float: left;
+    font-size: 1.5em;
+}
+
+nav {
+    width: calc(100% / 2 - (1em / 2));
+    float: left;
+}
+ul li {
+    display: inline;
+    padding-left: 0.5em;
+}
+header ul {
+    text-align: right;
+}
+.header-bottom{
+    padding-bottom: 1em;
+}
+
+.header-bottom:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.intro {
+    width: 35%;
+    float: left;
+    
+}
+.intro h1 {
+    margin-bottom: 0.3em;
+}
+.intro p {
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+header .image{
+    width: 62%;
+    float: left;
+}
+figure {
+    background-color: rgb(160, 160, 160);
+    padding: 4em 4em 2em 5em;
+    height: 12em;
+}
+figure > p {
+    line-height: 1.4em;
+    font-size: 1.3em;
+}
+
+main {
+    margin: 0 3em; 
+}
+main div.container2 {
+    margin: 0 auto;
+}
+
+.section-work article{
+    width: calc((100% - 3em) / 3);
+    height: 15em;
+    background-color: rgb(187, 187, 187);
+    margin-bottom: 1em;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    line-height: 15em;
+}
+
+.article-work {
+    font-family: sans-serif;
+    color: rgb(82, 82, 82);
+    font-weight: lighter;
+    line-height: normal;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.section.work {
+    margin-bottom: 2em;
+}
+section.twitter {
+    background-color: rgb(187, 187, 187);
+    padding: 1.5em 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+
+.section-work:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: rgb(187, 187, 187);
+  padding: 2em 0;
+}
+
+footer:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.navbar2{
+    float: left;
+}
+
+.navbar2 nav{
+    width: 100%;
+
+}
+
+footer ul li {
+    display: inline;
+}
+footer .info {
+    float: right;
+}
+    
